@@ -2,11 +2,13 @@ package Staff;
 
 public abstract class Employee {
 
+    private Employee employee;
     private String name;
-    private int niNumber;
+    private String niNumber;
     private double salary;
 
-    public Employee(String name, int niNumber, int salary) {
+    public Employee(String name, String niNumber, double salary) {
+        this.employee = employee;
         this.name = name;
         this.niNumber = niNumber;
         this.salary = salary;
@@ -16,7 +18,7 @@ public abstract class Employee {
         return this.name;
     }
 
-    public int getNiNumber(){
+    public String getNiNumber(){
         return this.niNumber;
     }
 
@@ -29,9 +31,10 @@ public abstract class Employee {
     }
 
     public double payBonus() {
-        double payBonus = (((getSalary() * (0.1)) + getSalary()));
+        double payBonus = (((getSalary() * (00.1)) + getSalary()));
         return payBonus();
     }
+
 
 }
 
