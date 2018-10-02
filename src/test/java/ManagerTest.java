@@ -30,7 +30,7 @@ public class ManagerTest {
     public void hasSalary() {
         assertEquals(20000, manager.getSalary(), 0.1);
     }
-    
+
 
     @Test
     public void hasDeptName() {
