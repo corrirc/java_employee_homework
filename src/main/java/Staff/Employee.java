@@ -35,6 +35,12 @@ public abstract class Employee {
         return payBonus();
     }
 
+    public void changeName(String name) {
+        if (name != null) {
+            this.name = name;
+        }
+    }
+
 
 }
 
