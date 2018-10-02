@@ -2,13 +2,13 @@ package Staff;
 
 public abstract class Employee {
 
-    private Employee employee;
+//    private Employee employee;
     private String name;
     private String niNumber;
     private double salary;
 
     public Employee(String name, String niNumber, double salary) {
-        this.employee = employee;
+//        this.employee = employee;
         this.name = name;
         this.niNumber = niNumber;
         this.salary = salary;
